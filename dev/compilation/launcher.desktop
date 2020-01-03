@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Julia-1.3 w\CImGui and auto demo launch
+Exec=sh -c "julia-1.3 -J/home/ian/Documents/GitHub/CImGui.jl/dev/compilation/CImGuiSysImage.so -q -e '@show isdefined(Main, :CImGui); include(joinpath(dirname(dirname(pathof(CImGui))), \"examples\", \"demo.jl\"))' -i"
+Terminal=true
+Type=Application
